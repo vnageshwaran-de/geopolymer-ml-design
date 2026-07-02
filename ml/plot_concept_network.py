@@ -80,16 +80,8 @@ def main():
                            edgecolors="white", linewidths=1.2, ax=ax)
     nx.draw_networkx_labels(G, pos, font_size=9.5, font_color="#111111", ax=ax)
 
-    ax.set_title(
-        "Concept co-occurrence in one-part geopolymer & ML literature "
-        "(n = 1,092 titles, 2014–2026)", fontsize=15, fontweight="bold",
-        pad=16)
-    ax.text(0.5, 1.005,
-            "Machine-learning methods (blue) couple to the strength / mix-design "
-            "core but have no edges to one-part formulation, fibre reinforcement, "
-            "or thermal function.",
-            transform=ax.transAxes, ha="center", va="bottom", fontsize=10.5,
-            color="#333333")
+    # No in-figure title/subtitle: the description is carried by the LaTeX
+    # \caption in the manuscript (avoids duplication and edge truncation).
 
     # legend: facet colours + node-size note
     handles = [Line2D([0], [0], marker="o", linestyle="", markersize=11,
