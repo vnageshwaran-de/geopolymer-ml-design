@@ -1,5 +1,7 @@
 # geopolymer-ml-design
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21136536.svg)](https://doi.org/10.5281/zenodo.21136536)
+
 Machine learning framework for designing one-part geopolymer composites for multifunctional defense and civil infrastructure applications.
 
 This repository accompanies the manuscript *"Machine Learning-Assisted Design of One-Part Geopolymer Composites: A Framework for Multifunctional Defense and Civil Infrastructure Applications"* (prepared for MDPI *Materials*). It contains the LaTeX manuscript source, the machine-learning demonstration pipeline, and the underlying datasets.
@@ -68,6 +70,26 @@ The `data/` folder contains the modeling dataset plus the supporting bibliometri
 ## Data source and attribution
 
 The one-part geopolymer dataset is compiled from open-literature sources, principally Faridmehr, Sahraei, Nehdi & Valerievich, *"Optimization of Fly Ash-Slag One-Part Geopolymers with Improved Properties,"* Materials 2023, 16, 2348 (doi:10.3390/ma16062348, open access).
+
+## Citation
+
+This repository is archived on Zenodo. If you use the code, data, or manuscript, please cite:
+
+> Nageshwaran, V., Amritphale, S., & Ezekiel, S. (2026). *vnageshwaran-de/geopolymer-ml-design: v1.0.0* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21136536
+
+Archived release: [v1.0.0](https://github.com/vnageshwaran-de/geopolymer-ml-design/releases/tag/v1.0.0) · DOI: [10.5281/zenodo.21136536](https://doi.org/10.5281/zenodo.21136536)
+
+```bibtex
+@software{nageshwaran_2026_geopolymer_ml_design,
+  author    = {Nageshwaran, Vinoth and Amritphale, Sudhir and Ezekiel, Soundararajan},
+  title     = {vnageshwaran-de/geopolymer-ml-design: v1.0.0},
+  version   = {v1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21136536},
+  url       = {https://doi.org/10.5281/zenodo.21136536}
+}
+```
 
 ## License
 

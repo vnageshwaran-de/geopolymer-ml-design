@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "vnageshwaran-de/geopolymer-ml-design: v1.0.0"
+authors:
+  - family-names: Nageshwaran
+    given-names: Vinoth
+  - family-names: Amritphale
+    given-names: Sudhir
+  - family-names: Ezekiel
+    given-names: Soundararajan
+version: v1.0.0
+date-released: "2026-07-02"
+doi: 10.5281/zenodo.21136536
+url: "https://github.com/vnageshwaran-de/geopolymer-ml-design"
+repository-code: "https://github.com/vnageshwaran-de/geopolymer-ml-design"
+license: MIT
