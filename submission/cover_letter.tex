@@ -1,0 +1,90 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=2.1cm]{geometry}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{5pt}
+\setlist[itemize]{topsep=2pt,itemsep=2pt,parsep=0pt,leftmargin=1.4em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent 2 July 2026
+
+\vspace{4pt}
+\noindent To the Editorial Office\\
+\emph{Materials} (MDPI)
+
+\vspace{10pt}
+\noindent \textbf{Re: Submission of an original research manuscript}
+
+\vspace{6pt}
+\noindent Dear Editors,
+
+We are pleased to submit our manuscript entitled \textbf{``Interpretable Machine
+Learning for One-Part Fly-Ash/Slag Geopolymer Strength Prediction: Toward
+Multifunctional Binder Design''} for consideration as an Article in \emph{Materials}.
+
+One-part (``just-add-water'') geopolymers replace the hazardous liquid activators of
+conventional systems with a dry, pre-blended solid activator, reproducing the ordinary
+Portland cement use-model while cutting embodied carbon substantially. This makes them
+uniquely suited to field-deployable, low-carbon construction---including protective and
+civil-infrastructure applications---but their high-dimensional formulation space defeats
+the one-factor-at-a-time experimentation that still dominates the literature. Our
+manuscript reviews the materials science of one-part geopolymers, contributes a new
+comparative and interpretable machine-learning (ML) analysis, and proposes a
+generalizable AI-assisted design framework.
+
+The principal contributions that we believe make this work a good fit for \emph{Materials}
+are:
+
+\begin{itemize}
+\item A comparative evaluation of four regression models on a published 80-mixture
+one-part fly-ash/GGBS dataset under \emph{both} a conventional random split and a
+stricter \emph{leave-one-source-out} (LOSO) cross-validation---the honest test of transfer
+to a new laboratory---with LOSO reported as the headline result.
+\item An explicit treatment of precursor collinearity: because fly-ash and GGBS contents
+are near-perfectly anti-correlated ($r=-0.99$), we collapse the precursor axis to a single
+slag-fraction descriptor, removing the instability that would otherwise corrupt feature
+attribution.
+\item SHAP-based interpretation that recovers mechanistically coherent strength
+levers---precursor balance and activator Na\textsubscript{2}O dosage---directly from held-out
+data, yielding actionable design guidance rather than black-box predictions.
+\item A five-stage, closed-loop design framework that clearly delineates what is
+\emph{demonstrated} in this study from what is \emph{proposed} as future work, avoiding the
+over-claiming common in this area.
+\item Full reproducibility: all analysis code, the cleaned dataset with per-mix
+source-study identifiers, and the bibliometric corpus and screening tables are archived on
+Zenodo (DOI \href{https://doi.org/10.5281/zenodo.21138235}{10.5281/zenodo.21138235}).
+\end{itemize}
+
+The analyzed dataset originates from an open-access (CC~BY) publication and is fully
+attributed in the manuscript; the modelling, LOSO evaluation, collinearity treatment, and
+interpretation are our own original contributions.
+
+We confirm that this manuscript is original, has not been published previously, and is not
+under consideration for publication elsewhere. All authors have read and approved the
+submitted version and agree to its submission to \emph{Materials}. The authors declare no
+conflicts of interest.
+
+\vspace{4pt}
+\noindent Correspondence regarding this submission should be directed to the corresponding
+author.
+
+\vspace{14pt}
+\noindent Sincerely,
+
+\vspace{4pt}
+\noindent \textbf{Vinoth Nageshwaran} (corresponding author)\\
+School of Computer and Information Sciences, University of the Cumberlands,
+Williamsburg, KY, USA\\
+\href{mailto:vnageshwaran41452@ucumberlands.edu}{vnageshwaran41452@ucumberlands.edu}
+
+\vspace{6pt}
+\noindent on behalf of the co-authors Sudhir Amritphale (Alchemy Geopolymer Solutions,
+Ruston, LA, USA) and Soundararajan Ezekiel (Indiana University of Pennsylvania,
+Indiana, PA, USA).
+
+\end{document}

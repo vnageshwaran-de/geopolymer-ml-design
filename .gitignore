@@ -37,3 +37,7 @@ Thumbs.db
 # Archives / large binaries
 *.zip
 supplement/supplementary_materials.pdf
+submission/*.pdf
+submission/*.aux
+submission/*.log
+submission/*.out
