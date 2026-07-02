@@ -1,0 +1,9 @@
+Screening / tagging stage,Count
+"Records retrieved (8 Crossref queries, pooled)","≈6,400 (with duplicates)"
+Unique records after DOI de-duplication,"4,312"
+"On-topic (geopolymer/alkali-activated regex), 2014–mid-2026","1,850"
+  — tagged ML stream,346
+  — tagged one-part stream,308
+  — one-part AND ML,17
+Records with abstract text >120 chars (network),"1,092"
+Validation sample (title-based adjudication),100

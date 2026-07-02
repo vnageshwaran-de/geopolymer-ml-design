@@ -1,0 +1,29 @@
+concept,facet,paper_freq,cluster,degree
+Fly ash,Precursor,532,0,20
+Compressive strength,Property,532,0,21
+Sustainability/CO2,Application,294,0,22
+Curing regime,Chemistry,250,0,21
+Microstructure,Property,235,0,20
+NaOH/KOH,Chemistry,198,0,21
+GGBS/slag,Precursor,185,0,23
+One-part,Application,178,0,17
+Durability,Property,167,0,17
+Workability/rheology,Property,149,0,15
+Fiber-reinforced/ECC,Application,142,0,15
+Sodium silicate,Chemistry,135,0,19
+Waste valorization,Application,99,0,16
+Metakaolin,Precursor,89,0,15
+Natural pozzolan,Precursor,43,0,13
+Lightweight/foam,Application,37,0,5
+Rice husk ash,Precursor,26,0,5
+Thermal/fire,Application,25,0,3
+Red mud,Precursor,22,0,3
+Waste glass,Precursor,14,0,1
+Solid activator,Chemistry,12,0,5
+Neural network,ML,83,1,15
+SHAP/interpretability,ML,48,1,12
+Optimization,ML,41,1,12
+XGBoost/GBM,ML,38,1,10
+Random forest,ML,37,1,11
+SVM,ML,27,1,10
+Soil stabilization,Application,27,1,11

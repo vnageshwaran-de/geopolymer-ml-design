@@ -1,0 +1,190 @@
+source,target,cooccur_count,jaccard
+Fly ash,Compressive strength,304,0.4
+Curing regime,Compressive strength,177,0.2926
+Compressive strength,Sustainability/CO2,169,0.2572
+NaOH/KOH,Compressive strength,161,0.283
+Fly ash,Curing regime,159,0.2552
+Fly ash,Sustainability/CO2,143,0.2094
+Fly ash,Microstructure,142,0.2272
+Fly ash,NaOH/KOH,140,0.2373
+Compressive strength,Microstructure,138,0.2194
+Fly ash,GGBS/slag,131,0.2235
+GGBS/slag,Compressive strength,117,0.195
+Sodium silicate,Compressive strength,106,0.1889
+Compressive strength,Workability/rheology,106,0.1843
+NaOH/KOH,Curing regime,95,0.2691
+Fly ash,Durability,95,0.1573
+Fly ash,Sodium silicate,94,0.164
+Fly ash,Workability/rheology,93,0.1582
+Curing regime,Sustainability/CO2,91,0.2009
+Sodium silicate,NaOH/KOH,90,0.3704
+Compressive strength,Durability,81,0.1311
+Fly ash,One-part,80,0.127
+Durability,Sustainability/CO2,74,0.1912
+NaOH/KOH,Sustainability/CO2,71,0.1686
+Neural network,Compressive strength,69,0.1264
+GGBS/slag,Sustainability/CO2,66,0.1598
+Microstructure,Sustainability/CO2,66,0.1425
+Curing regime,Microstructure,66,0.1575
+NaOH/KOH,Microstructure,62,0.1671
+GGBS/slag,Curing regime,61,0.1631
+Compressive strength,One-part,60,0.0923
+Sodium silicate,Curing regime,60,0.1846
+Workability/rheology,Sustainability/CO2,57,0.1477
+Fly ash,Waste valorization,57,0.0993
+Metakaolin,Compressive strength,56,0.0991
+Compressive strength,Fiber-reinforced/ECC,55,0.0889
+Workability/rheology,Microstructure,54,0.1636
+One-part,Sustainability/CO2,54,0.1292
+GGBS/slag,NaOH/KOH,53,0.1606
+Compressive strength,Waste valorization,52,0.0898
+Curing regime,Workability/rheology,51,0.1466
+Microstructure,One-part,50,0.1377
+Sodium silicate,Sustainability/CO2,50,0.1319
+Sustainability/CO2,Waste valorization,47,0.1358
+Durability,Microstructure,46,0.1292
+GGBS/slag,Workability/rheology,45,0.1557
+Fiber-reinforced/ECC,Sustainability/CO2,44,0.1122
+GGBS/slag,Microstructure,44,0.117
+Curing regime,Durability,43,0.115
+Fly ash,Fiber-reinforced/ECC,43,0.0681
+Curing regime,One-part,41,0.1059
+GGBS/slag,Durability,41,0.1318
+Sodium silicate,Microstructure,41,0.1246
+Fly ash,Neural network,41,0.0714
+Durability,One-part,39,0.1275
+NaOH/KOH,Durability,38,0.1162
+GGBS/slag,Sodium silicate,37,0.1307
+SHAP/interpretability,Compressive strength,37,0.0681
+NaOH/KOH,Workability/rheology,37,0.1194
+Metakaolin,Sustainability/CO2,36,0.1037
+XGBoost/GBM,Compressive strength,36,0.0674
+Durability,Workability/rheology,35,0.1246
+Durability,Fiber-reinforced/ECC,35,0.1277
+Sodium silicate,Workability/rheology,34,0.136
+Neural network,Sustainability/CO2,34,0.0991
+Workability/rheology,One-part,32,0.1085
+Natural pozzolan,Compressive strength,32,0.0589
+Fly ash,Metakaolin,31,0.0525
+Microstructure,Fiber-reinforced/ECC,31,0.0896
+Random forest,Compressive strength,31,0.0576
+GGBS/slag,One-part,30,0.0901
+Sodium silicate,One-part,30,0.106
+Curing regime,Waste valorization,28,0.0872
+Metakaolin,Curing regime,28,0.09
+Optimization,Compressive strength,28,0.0514
+Curing regime,Neural network,27,0.0882
+Microstructure,Waste valorization,26,0.0844
+Metakaolin,NaOH/KOH,26,0.0996
+Sodium silicate,Durability,25,0.0903
+Durability,Waste valorization,25,0.1037
+Metakaolin,Microstructure,25,0.0836
+SVM,Compressive strength,24,0.0449
+GGBS/slag,Waste valorization,22,0.084
+Fly ash,Natural pozzolan,22,0.0398
+Fly ash,Random forest,22,0.0402
+XGBoost/GBM,Sustainability/CO2,22,0.071
+Metakaolin,Workability/rheology,21,0.0968
+SHAP/interpretability,Sustainability/CO2,21,0.0654
+Compressive strength,Soil stabilization,21,0.039
+Fly ash,SHAP/interpretability,21,0.0376
+Curing regime,Fiber-reinforced/ECC,20,0.0538
+One-part,Waste valorization,20,0.0778
+Natural pozzolan,Sustainability/CO2,20,0.0631
+NaOH/KOH,One-part,19,0.0532
+Fly ash,Lightweight/foam,19,0.0345
+Fly ash,Optimization,18,0.0324
+Metakaolin,Sodium silicate,18,0.0874
+NaOH/KOH,Neural network,18,0.0684
+Neural network,Random forest,18,0.1765
+GGBS/slag,Neural network,18,0.072
+Random forest,XGBoost/GBM,17,0.2931
+Fiber-reinforced/ECC,Waste valorization,17,0.0759
+NaOH/KOH,Fiber-reinforced/ECC,17,0.0526
+Fly ash,Soil stabilization,17,0.0314
+Curing regime,XGBoost/GBM,16,0.0588
+Random forest,SVM,16,0.3333
+GGBS/slag,Fiber-reinforced/ECC,16,0.0514
+NaOH/KOH,Waste valorization,16,0.0569
+Random forest,Sustainability/CO2,16,0.0508
+Natural pozzolan,Curing regime,16,0.0578
+Workability/rheology,Waste valorization,16,0.069
+Optimization,Sustainability/CO2,16,0.0502
+XGBoost/GBM,SHAP/interpretability,15,0.2113
+Random forest,SHAP/interpretability,15,0.2143
+SVM,Sustainability/CO2,15,0.049
+GGBS/slag,Random forest,15,0.0725
+Natural pozzolan,NaOH/KOH,15,0.0664
+Curing regime,Random forest,15,0.0551
+One-part,Soil stabilization,14,0.0733
+Neural network,SHAP/interpretability,14,0.1197
+NaOH/KOH,Random forest,14,0.0633
+Curing regime,SHAP/interpretability,14,0.0493
+Metakaolin,Durability,14,0.0579
+Neural network,SVM,14,0.1458
+Metakaolin,Fiber-reinforced/ECC,13,0.0596
+Sodium silicate,Waste valorization,12,0.0541
+Neural network,XGBoost/GBM,12,0.1101
+NaOH/KOH,Optimization,12,0.0529
+Solid activator,One-part,12,0.0674
+GGBS/slag,Metakaolin,12,0.0458
+One-part,Fiber-reinforced/ECC,12,0.039
+Natural pozzolan,Microstructure,11,0.0412
+Rice husk ash,Curing regime,11,0.0415
+Microstructure,Lightweight/foam,11,0.0421
+Workability/rheology,Fiber-reinforced/ECC,11,0.0393
+Natural pozzolan,Workability/rheology,10,0.0549
+Sodium silicate,Neural network,10,0.0481
+Red mud,Microstructure,10,0.0405
+Curing regime,SVM,10,0.0375
+Soil stabilization,Sustainability/CO2,10,0.0322
+Lightweight/foam,Sustainability/CO2,10,0.0312
+Curing regime,Optimization,10,0.0356
+GGBS/slag,Optimization,10,0.0463
+Microstructure,Thermal/fire,9,0.0359
+Microstructure,Soil stabilization,9,0.0356
+Sodium silicate,Fiber-reinforced/ECC,9,0.0336
+GGBS/slag,Natural pozzolan,9,0.0411
+GGBS/slag,XGBoost/GBM,9,0.0421
+NaOH/KOH,SVM,9,0.0417
+SVM,SHAP/interpretability,9,0.1364
+Solid activator,Microstructure,9,0.0378
+Random forest,Optimization,9,0.1304
+NaOH/KOH,Soil stabilization,9,0.0417
+XGBoost/GBM,SVM,9,0.1607
+XGBoost/GBM,Optimization,9,0.1286
+Neural network,Durability,8,0.0331
+Neural network,Waste valorization,8,0.046
+One-part,Lightweight/foam,8,0.0386
+Rice husk ash,Sodium silicate,8,0.0523
+GGBS/slag,Thermal/fire,8,0.0396
+NaOH/KOH,XGBoost/GBM,8,0.0351
+Waste glass,Microstructure,8,0.0332
+Metakaolin,Natural pozzolan,8,0.0645
+GGBS/slag,Rice husk ash,8,0.0394
+Natural pozzolan,One-part,8,0.0376
+SHAP/interpretability,Durability,8,0.0386
+Red mud,One-part,7,0.0363
+Neural network,Optimization,7,0.0598
+Optimization,Waste valorization,7,0.0526
+GGBS/slag,Solid activator,7,0.0368
+GGBS/slag,SHAP/interpretability,7,0.031
+GGBS/slag,Soil stabilization,7,0.0341
+Natural pozzolan,Durability,7,0.0345
+SHAP/interpretability,Optimization,7,0.0854
+Rice husk ash,NaOH/KOH,7,0.0323
+Natural pozzolan,Sodium silicate,7,0.0409
+Metakaolin,Rice husk ash,6,0.055
+Sodium silicate,Soil stabilization,6,0.0385
+Durability,Soil stabilization,6,0.0319
+Metakaolin,Waste valorization,6,0.033
+Natural pozzolan,Waste valorization,6,0.0441
+Sodium silicate,Solid activator,6,0.0426
+Fiber-reinforced/ECC,Thermal/fire,6,0.0373
+SVM,Optimization,5,0.0794
+Sodium silicate,SVM,5,0.0318
+Red mud,Fiber-reinforced/ECC,5,0.0314
+Neural network,Soil stabilization,5,0.0476
+Metakaolin,Lightweight/foam,5,0.0413
+Solid activator,Workability/rheology,5,0.0321
+SHAP/interpretability,Soil stabilization,5,0.0714
