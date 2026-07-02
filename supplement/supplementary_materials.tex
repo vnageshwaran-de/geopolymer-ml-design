@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\captionsetup{labelfont=bf,font=small}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\title{\vspace{-1.5cm}\Large Supplementary Materials\\[4pt]
+\large Interpretable Machine Learning for One-Part Fly-Ash/Slag Geopolymer
+Strength Prediction: Toward Multifunctional Binder Design}
+\author{Vinoth Nageshwaran, Sudhir Amritphale, and Soundararajan Ezekiel}
+\date{}
+
+\begin{document}
+\maketitle
+
+This document provides the supplementary tables referenced in the main text.
+
+\vspace{0.5cm}
+
+%============================ TABLE S1 ============================
+\begin{table}[h]
+\centering
+\caption{Bibliometric screening and tagging summary (PRISMA-style). Records were
+retrieved from the Crossref REST API via eight bibliographic queries, pooled, and
+de-duplicated by DOI. Relevance and sub-stream tagging used case-insensitive
+regular expressions applied to record \emph{titles} (the corpus retains
+title-level metadata; abstracts were not stored).}
+\label{tab:s1}
+\begin{tabular}{lr}
+\toprule
+\textbf{Screening / tagging stage} & \textbf{Count} \\
+\midrule
+Records retrieved (8 Crossref queries, pooled) & $\approx$6{,}400 (with duplicates) \\
+Unique records after DOI de-duplication & 4{,}312 \\
+On-topic (geopolymer / alkali-activated regex), 2014--mid-2026 & 1{,}850 \\
+\quad--- tagged ML stream & 346 \\
+\quad--- tagged one-part stream & 308 \\
+\quad--- one-part AND ML & 17 \\
+Records with title text $>$120 characters (concept network) & 1{,}092 \\
+Validation sample (title-based adjudication) & 100 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Regex-tag validation on the 100-record adjudication sample gave precision $=1.00$
+for both the ML and one-part streams (no false positives), with recall $=0.76$
+(ML) and $0.86$ (one-part); the residual errors are recall misses on records whose
+titles omit the trigger terms. Because tagging is title-based, this validation is
+conservative on recall.
+
+\vspace{0.5cm}
+
+%============================ TABLE S2 ============================
+\begin{table}[h]
+\centering
+\caption{Leave-one-source-out (LOSO) fold-by-fold results for the XGBoost model on
+the 80-mix one-part fly-ash/GGBS geopolymer dataset. Each row holds out all mixes
+from one source study and predicts them from a model trained on the other eleven.
+Fold $R^2$ on a handful of held-out points is unstable and ranges from strongly
+negative to near-unity; per-fold RMSE is a steadier per-study read. The pooled LOSO
+$R^2$ over all 80 predictions is 0.61 (five-fold CV mean $R^2 = 0.65$).}
+\label{tab:s2}
+\begin{tabular}{ccrr}
+\toprule
+\textbf{Source study (ref.)} & \textbf{Mixes held out ($n$)} & \textbf{LOSO $R^2$} & \textbf{LOSO RMSE (MPa)} \\
+\midrule
+17 & 6  & 0.097  & 14.35 \\
+18 & 6  & -0.154 & 12.45 \\
+19 & 4  & -2.196 & 21.80 \\
+20 & 6  & -2.720 & 9.33 \\
+21 & 4  & 0.673  & 6.94 \\
+22 & 2  & -2.584 & 6.06 \\
+23 & 3  & 0.996  & 1.01 \\
+24 & 6  & 0.474  & 13.07 \\
+25 & 14 & -0.349 & 9.30 \\
+26 & 11 & 0.852  & 6.13 \\
+27 & 7  & 0.060  & 25.26 \\
+28 & 11 & -0.218 & 25.61 \\
+\midrule
+\textbf{Total / pooled} & \textbf{80} & \bfseries 0.612 & \bfseries 15.49 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Source-study reference numbers correspond to the citation keys in the main-text
+reference list. The wide spread of per-fold $R^2$ (from $-2.72$ to $0.996$) reflects
+the small size of individual held-out groups ($n = 2$ to $14$); the pooled LOSO
+$R^2$ and the five-fold cross-validated mean are the meaningful aggregate measures
+of generalization.
+
+\end{document}
