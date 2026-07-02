@@ -1,6 +1,6 @@
 # geopolymer-ml-design
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21136536.svg)](https://doi.org/10.5281/zenodo.21136536)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21138235.svg)](https://doi.org/10.5281/zenodo.21138235)
 
 Machine learning framework for designing one-part geopolymer composites for multifunctional defense and civil infrastructure applications.
 
@@ -75,19 +75,19 @@ The one-part geopolymer dataset is compiled from open-literature sources, princi
 
 This repository is archived on Zenodo. If you use the code, data, or manuscript, please cite:
 
-> Nageshwaran, V., Amritphale, S., & Ezekiel, S. (2026). *vnageshwaran-de/geopolymer-ml-design: v1.0.0* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21136536
+> Nageshwaran, V., Amritphale, S., & Ezekiel, S. (2026). *vnageshwaran-de/geopolymer-ml-design: v1.1.0* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.21138235
 
-Archived release: [v1.0.0](https://github.com/vnageshwaran-de/geopolymer-ml-design/releases/tag/v1.0.0) · DOI: [10.5281/zenodo.21136536](https://doi.org/10.5281/zenodo.21136536)
+Archived release: [v1.1.0](https://github.com/vnageshwaran-de/geopolymer-ml-design/releases/tag/v1.1.0) · DOI: [10.5281/zenodo.21138235](https://doi.org/10.5281/zenodo.21138235)
 
 ```bibtex
 @software{nageshwaran_2026_geopolymer_ml_design,
   author    = {Nageshwaran, Vinoth and Amritphale, Sudhir and Ezekiel, Soundararajan},
-  title     = {vnageshwaran-de/geopolymer-ml-design: v1.0.0},
-  version   = {v1.0.0},
+  title     = {vnageshwaran-de/geopolymer-ml-design: v1.1.0},
+  version   = {v1.1.0},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21136536},
-  url       = {https://doi.org/10.5281/zenodo.21136536}
+  doi       = {10.5281/zenodo.21138235},
+  url       = {https://doi.org/10.5281/zenodo.21138235}
 }
 ```
 
