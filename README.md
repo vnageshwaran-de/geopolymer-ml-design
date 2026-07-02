@@ -71,4 +71,9 @@ The one-part geopolymer dataset is compiled from open-literature sources, princi
 
 ## License
 
-No license file is included yet. Add one (e.g. MIT for code, CC BY 4.0 for data/manuscript) before making the repository public.
+This repository is dual-licensed:
+
+- **Code** (the `ml/` directory and any scripts) — [MIT License](LICENSE).
+- **Manuscript and data** (`manuscript/` and `data/`) — [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CC-BY-4.0.txt).
+
+The one-part geopolymer dataset is compiled from open-literature sources (see *Data source and attribution* above), which retain their original authors' copyright and CC BY 4.0 terms.
