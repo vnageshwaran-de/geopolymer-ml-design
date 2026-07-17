@@ -1,0 +1,262 @@
+{
+ "reproduce": {
+  "Linear": {
+   "test_r2": 0.798,
+   "test_rmse": 11.85,
+   "loso_r2": 0.355,
+   "loso_rmse": 19.97
+  },
+  "SVR": {
+   "test_r2": 0.711,
+   "test_rmse": 14.19,
+   "loso_r2": 0.537,
+   "loso_rmse": 16.93
+  },
+  "RF": {
+   "test_r2": 0.843,
+   "test_rmse": 10.44,
+   "loso_r2": 0.582,
+   "loso_rmse": 16.09
+  },
+  "XGB": {
+   "test_r2": 0.9,
+   "test_rmse": 8.34,
+   "loso_r2": 0.612,
+   "loso_rmse": 15.49
+  }
+ },
+ "duplicates": {
+  "n_records": 80,
+  "n_unique_5d_vectors": 53,
+  "n_records_in_dup_groups": 38,
+  "n_dup_groups": 11,
+  "max_within_group_range_MPa": 34.5,
+  "replicate_noise_floor_RMSE_MPa": 9.0
+ },
+ "dedup_sensitivity": {
+  "Linear": {
+   "n": 59,
+   "loso_r2": 0.305,
+   "loso_rmse": 19.98
+  },
+  "XGB": {
+   "n": 59,
+   "loso_r2": 0.592,
+   "loso_rmse": 15.3
+  }
+ },
+ "nested_cv": {
+  "Linear": {
+   "loso_r2": 0.355,
+   "loso_rmse": 19.97
+  },
+  "SVR": {
+   "loso_r2": 0.556,
+   "loso_rmse": 16.57
+  },
+  "RF": {
+   "loso_r2": 0.549,
+   "loso_rmse": 16.71
+  },
+  "XGB": {
+   "loso_r2": 0.595,
+   "loso_rmse": 15.83
+  }
+ },
+ "early_stopping_xgb": {
+  "loso_r2": 0.556,
+  "loso_rmse": 16.58,
+  "median_best_n_trees": 59,
+  "iqr_trees": [
+   47,
+   249
+  ]
+ },
+ "learning_curve": [
+  {
+   "depth": 2,
+   "n_estimators": 10,
+   "loso_r2": 0.309,
+   "loso_rmse": 20.68
+  },
+  {
+   "depth": 2,
+   "n_estimators": 25,
+   "loso_r2": 0.53,
+   "loso_rmse": 17.06
+  },
+  {
+   "depth": 2,
+   "n_estimators": 50,
+   "loso_r2": 0.589,
+   "loso_rmse": 15.95
+  },
+  {
+   "depth": 2,
+   "n_estimators": 100,
+   "loso_r2": 0.597,
+   "loso_rmse": 15.79
+  },
+  {
+   "depth": 2,
+   "n_estimators": 200,
+   "loso_r2": 0.602,
+   "loso_rmse": 15.69
+  },
+  {
+   "depth": 2,
+   "n_estimators": 400,
+   "loso_r2": 0.613,
+   "loso_rmse": 15.48
+  },
+  {
+   "depth": 2,
+   "n_estimators": 800,
+   "loso_r2": 0.607,
+   "loso_rmse": 15.6
+  },
+  {
+   "depth": 3,
+   "n_estimators": 10,
+   "loso_r2": 0.331,
+   "loso_rmse": 20.35
+  },
+  {
+   "depth": 3,
+   "n_estimators": 25,
+   "loso_r2": 0.558,
+   "loso_rmse": 16.55
+  },
+  {
+   "depth": 3,
+   "n_estimators": 50,
+   "loso_r2": 0.61,
+   "loso_rmse": 15.54
+  },
+  {
+   "depth": 3,
+   "n_estimators": 100,
+   "loso_r2": 0.619,
+   "loso_rmse": 15.36
+  },
+  {
+   "depth": 3,
+   "n_estimators": 200,
+   "loso_r2": 0.613,
+   "loso_rmse": 15.48
+  },
+  {
+   "depth": 3,
+   "n_estimators": 400,
+   "loso_r2": 0.612,
+   "loso_rmse": 15.49
+  },
+  {
+   "depth": 3,
+   "n_estimators": 800,
+   "loso_r2": 0.611,
+   "loso_rmse": 15.51
+  }
+ ],
+ "bootstrap": {
+  "loso_r2_point": 0.612,
+  "loso_rmse_point": 15.49,
+  "record_boot_r2_95ci": [
+   0.437,
+   0.746
+  ],
+  "record_boot_rmse_95ci": [
+   12.077,
+   18.615
+  ],
+  "cluster_boot_r2_95ci": [
+   0.378,
+   0.785
+  ],
+  "cluster_boot_rmse_95ci": [
+   9.918,
+   20.172
+  ]
+ },
+ "variance_decomposition": {
+  "total_loso_mse": 239.8,
+  "between_study_bias_share": 0.229,
+  "within_study_share": 0.771,
+  "replicate_noise_floor_var": 81.0,
+  "replicate_noise_share_of_mse": 0.338,
+  "per_study": [
+   {
+    "study": 17,
+    "n": 6,
+    "bias_MPa": 9.45,
+    "within_rmse_MPa": 10.8
+   },
+   {
+    "study": 18,
+    "n": 6,
+    "bias_MPa": -6.28,
+    "within_rmse_MPa": 10.75
+   },
+   {
+    "study": 19,
+    "n": 4,
+    "bias_MPa": 18.07,
+    "within_rmse_MPa": 12.19
+   },
+   {
+    "study": 20,
+    "n": 6,
+    "bias_MPa": -4.69,
+    "within_rmse_MPa": 8.07
+   },
+   {
+    "study": 21,
+    "n": 4,
+    "bias_MPa": -2.98,
+    "within_rmse_MPa": 6.26
+   },
+   {
+    "study": 22,
+    "n": 2,
+    "bias_MPa": -6.06,
+    "within_rmse_MPa": 0.13
+   },
+   {
+    "study": 23,
+    "n": 3,
+    "bias_MPa": -0.3,
+    "within_rmse_MPa": 0.97
+   },
+   {
+    "study": 24,
+    "n": 6,
+    "bias_MPa": -9.18,
+    "within_rmse_MPa": 9.3
+   },
+   {
+    "study": 25,
+    "n": 14,
+    "bias_MPa": 8.43,
+    "within_rmse_MPa": 3.94
+   },
+   {
+    "study": 26,
+    "n": 11,
+    "bias_MPa": 0.84,
+    "within_rmse_MPa": 6.07
+   },
+   {
+    "study": 27,
+    "n": 7,
+    "bias_MPa": -8.1,
+    "within_rmse_MPa": 23.92
+   },
+   {
+    "study": 28,
+    "n": 11,
+    "bias_MPa": -3.14,
+    "within_rmse_MPa": 25.42
+   }
+  ]
+ }
+}
